@@ -1,8 +1,8 @@
 class ApplicationController < ActionController::Base
     def index
-        render "hello"
+        render "application/hello"
     end
     def teste
-        render "teste"
+        render "application/teste"
     end
 end
